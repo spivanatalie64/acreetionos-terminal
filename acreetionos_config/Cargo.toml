@@ -1,0 +1,19 @@
+[package]
+name = "acreetionos_config"
+version = "0.2.3"
+authors = ["AcreetionOS"]
+license = "MIT OR Apache-2.0"
+description = "AcreetionOS Terminal configuration abstractions"
+homepage = "https://github.com/AcreetionOS/acreetionos-terminal"
+repository = "https://github.com/AcreetionOS/acreetionos-terminal"
+edition.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+log = { version = "0.4.17", features = ["serde"] }
+serde = "1.0.163"
+toml.workspace = true
+
+[dev-dependencies]
+acreetionos_config_derive = { version = "0.2.5", path = "../acreetionos_config_derive" }
+serde = { version = "1.0.163", features = ["derive"] }

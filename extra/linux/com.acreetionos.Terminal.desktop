@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+TryExec=acreetionos-terminal
+Exec=acreetionos-terminal
+Icon=com.acreetionos.Terminal
+Terminal=false
+Categories=System;TerminalEmulator;
+
+Name=AcreetionOS Terminal
+GenericName=Terminal
+Comment=A fast, cross-platform, OpenGL terminal emulator
+StartupNotify=true
+StartupWMClass=AcreetionOS Terminal
+Actions=New;
+
+[Desktop Action New]
+Name=New Terminal
+Exec=acreetionos-terminal
