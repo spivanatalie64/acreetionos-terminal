@@ -1,1 +1,4 @@
-target
+target/
+out/
+*.tar.gz
+*.pkg.tar.zst
