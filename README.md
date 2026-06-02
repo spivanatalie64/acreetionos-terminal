@@ -112,3 +112,14 @@ niceties like a GUI config editor.
 AcreetionOS Terminal is released under the [Apache License, Version 2.0].
 
 [Apache License, Version 2.0]: https://github.com/acreetionos-terminal/acreetionos-terminal/blob/master/LICENSE-APACHE
+---
+
+## 🤖 Pullfrog AI Review
+
+This repository uses **Pullfrog AI** to automatically review pull requests.
+
+Pullfrog is an AI-powered code review agent that analyzes every PR for code quality,
+security issues, performance problems, and best practice violations. Reviews appear
+as inline PR comments and checks. Trigger manually by commenting `@pullfrog` on any PR.
+
+Powered by OpenRouter.
